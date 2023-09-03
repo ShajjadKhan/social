@@ -1,0 +1,64 @@
+@media (max-width:768px) {
+  .searchInput {
+    display: none;
+  }
+  .rightSideBar{
+    display: none;
+  }
+  .middleSide{
+    width: 100%;
+    padding-right: 20px;
+  }
+ 
+  
+}
+@media (max-width:425px) {
+  .leftSideBar{
+    display: none;
+   
+  }
+  .chatBox {
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    top: 0;
+  }
+  .arrowIcon{
+    margin-right: 10px;
+  }
+  .chatAll{
+    height: 78vh;
+  }
+  .chatInput{
+    width: 70%;
+  }
+  .chatHeader{
+    width: 95%;
+  }
+  .middleSide{
+        padding: 0 20px;
+  }
+  .postReaction i{
+    font-size: 18px;
+  }
+}
+@media (max-width:375px) {
+  .leftSideBar{
+    display: none;
+   
+  }
+  .middleSide{
+        padding: 0 20px;
+  }
+  .logo h1{
+    font-size: 20px;
+  }
+ .profileContainer {
+  gap: 10px;
+ }
+ 
+ 
+ .userInput {
+  width: 80%;
+}
+}
