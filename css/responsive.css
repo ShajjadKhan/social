@@ -17,6 +17,15 @@
     display: none;
    
   }
+  .registrationRow{
+    flex-direction: column;
+  }
+  .leftSide, .rightSide{
+    width: 100%!important;
+  }
+  .registrationContainer{
+    height: auto!important;
+  }
   .chatBox {
     width: 100vw;
     height: 100vh;
@@ -41,6 +50,9 @@
   .postReaction i{
     font-size: 18px;
   }
+  .postWrapper{
+    width: 400px;
+  }
 }
 @media (max-width:375px) {
   .leftSideBar{
@@ -49,6 +61,9 @@
   }
   .middleSide{
         padding: 0 20px;
+  }
+  .postWrapper{
+    width: 350px;
   }
   .logo h1{
     font-size: 20px;
@@ -61,4 +76,10 @@
  .userInput {
   width: 80%;
 }
+}
+
+@media (max-width:320px) {
+   .postWrapper{
+    width: 300px;
+  }
 }
